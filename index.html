@@ -101,6 +101,34 @@
           <p>La letra correspondiente es: </p>
           <p><span id="letraDNI">?</span></p>
         </article>
+
+
+        <article>
+          <!--
+             *
+             * Bloque ARTICLE
+             *
+            -->
+
+            <p>Letra del NIE:</p>
+            <select  id="primeraLetraNIE">
+              <option value="X">X</option>
+              <option value="Y">Y</option>
+              <option value="Z">Z</option>
+            </select>
+          <p>Numero de NIE:</p>
+          <p><input type="text" id="nie" /></p>
+          <p>
+            <input
+              type="button"
+              onclick="calcularLetraNIE()"
+              id="boton"
+              value="CALCULAR"
+            />
+          </p>
+          <p>La letra correspondiente es: </p>
+          <p><span id="letraNIE">?</span></p>
+        </article>
       </section>
     </main>
 
@@ -112,6 +140,6 @@
         -->
     </footer>
     <!-- JS -->
-    <script src="js/letraDni.js?v1"></script>
+    <script src="js/letraDni.js?v3"></script>
   </body>
 </html>

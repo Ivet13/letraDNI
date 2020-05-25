@@ -1,6 +1,7 @@
 body {
-  min-height: 100vh;
+
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -11,11 +12,13 @@ body {
   font-size: larger;
 }
 
-main {
+article {
   border-radius: 39px;
   background: #5c9794;
   box-shadow: 5px 5px 10px #548987, -5px -5px 10px #64a5a1;
   padding: 3%;
+  margin-top:20%;
+  margin-bottom: 20%;
 }
 
 input {
@@ -23,8 +26,8 @@ input {
   text-align: center;
   border: none;
   height: 40px;
-  font-size: large;
-  border-radius: 39px;
+/*   font-size: large;
+ */  border-radius: 39px;
   background: #5c9794;
   box-shadow: 5px 5px 10px #416b69, -5px -5px 10px #77c3bf;
 }
